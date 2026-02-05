@@ -1,0 +1,133 @@
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = /Users/marichalemma/Google/env/bin/python3.11 -m $
+      gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = /Users/marichalemma/Google/env/bin/python3.11 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = /Users/marichalemma/Google/env/bin/python3.11 -m $
+      gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# fix: Run gftools-fix
+rule fix
+  command = /Users/marichalemma/Google/env/bin/python3.11 -m $
+      gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# compress: Compress to webfont
+rule compress
+  command = /Users/marichalemma/Google/env/bin/python3.11 -m $
+      gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $in $
+      $stamp
+  description = compress
+
+# buildOTF: Build a OTF from a source file
+rule buildOTF
+  command = /Users/marichalemma/Google/env/bin/python3.11 -m $
+      gftools.builder.jobrunner fontmake --output-path $out -o otf $
+      $fontmake_type $in $args $stamp
+  description = buildOTF
+
+# copy: Copy a file
+rule copy
+  command = /Users/marichalemma/Google/env/bin/python3.11 -m $
+      gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating instance_ufos/Coustard-Regular.ufo.json
+build instance_ufos/Coustard-Regular.ufo.json: instantiateUfo Coustard.glyphs
+  operation = instantiateUfo
+  instance_name = Coustard Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/Coustard-Black.ufo.json
+build instance_ufos/Coustard-Black.ufo.json: instantiateUfo Coustard.glyphs
+  operation = instantiateUfo
+  instance_name = Coustard Black
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating ../fonts/webfonts/Coustard-Regular.woff2
+build ../fonts/webfonts/Coustard-Regular.woff2: compress $
+    ../fonts/ttf/Coustard-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/Coustard-Black.woff2
+build ../fonts/webfonts/Coustard-Black.woff2: compress $
+    ../fonts/ttf/Coustard-Black.ttf
+  operation = compress
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmplx0k77ky
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmplx0k77ky: $
+    buildTTF instance_ufos/Coustard-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmprm6vi33_
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmprm6vi33_: $
+    buildOTF instance_ufos/Coustard-Regular.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpkh3cr5l0
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpkh3cr5l0: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmplx0k77ky
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Coustard-Regular.ttf
+build ../fonts/ttf/Coustard-Regular.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpkh3cr5l0
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Coustard-Regular.otf
+build ../fonts/otf/Coustard-Regular.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmprm6vi33_
+  operation = fix
+  args = 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpk6tn964f
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpk6tn964f: $
+    buildTTF instance_ufos/Coustard-Black.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp_91e4kkf
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp_91e4kkf: $
+    buildOTF instance_ufos/Coustard-Black.ufo.json
+  operation = buildOTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpqha2i23e
+build /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpqha2i23e: $
+    autohint /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpk6tn964f
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/Coustard-Black.ttf
+build ../fonts/ttf/Coustard-Black.ttf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpqha2i23e
+  operation = fix
+  args = 
+# Generating ../fonts/otf/Coustard-Black.otf
+build ../fonts/otf/Coustard-Black.otf: fix $
+    /var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp_91e4kkf
+  operation = fix
+  args = 
+default ../fonts/webfonts/Coustard-Regular.woff2 $
+    ../fonts/webfonts/Coustard-Black.woff2 $
+    ../fonts/otf/Coustard-Regular.otf ../fonts/otf/Coustard-Black.otf

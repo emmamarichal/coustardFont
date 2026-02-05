@@ -1,0 +1,15 @@
+# ninja log v7
+0	2573	1770301474904340082	instance_ufos/Coustard-Black.ufo.json	69ff9c45c382b143
+0	2573	1770301474904148631	instance_ufos/Coustard-Regular.ufo.json	2a1bfdefd95316fa
+0	3795	1770301501916155938	/var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmplx0k77ky	2c51f434b83b04e6
+0	3994	1770301501916361890	/var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpk6tn964f	b3a2aebbe676bcb8
+1	4065	1770301501916505551	/var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmprm6vi33_	bebf509b7dab7668
+1	4199	1770301501916627047	/var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmp_91e4kkf	7bd02a92c0f2e3e5
+4199	6458	1770301506115327550	../fonts/otf/Coustard-Black.otf	31ab74a0b2141123
+4066	6491	1770301505984001471	../fonts/otf/Coustard-Regular.otf	fd001995b9ae985c
+3795	6926	1770301505710902857	/var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpkh3cr5l0	adf36e2b9f946c35
+3994	6931	1770301505909942735	/var/folders/rg/9txh3wk556g9mx7wpz0z2dlc0000gn/T/tmpqha2i23e	8929d4b05d329a06
+6931	8696	1770301508847152489	../fonts/ttf/Coustard-Black.ttf	370a8ccc86f52b61
+6926	8697	1770301508841840181	../fonts/ttf/Coustard-Regular.ttf	af2f6106bf5392b3
+8697	10131	1770301510612263840	../fonts/webfonts/Coustard-Regular.woff2	925d42fb43fd450f
+8696	10131	1770301510611910477	../fonts/webfonts/Coustard-Black.woff2	8eae847058371b95
