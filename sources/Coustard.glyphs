@@ -76325,39 +76325,45 @@ unicode = 59;
 {
 color = 9;
 glyphname = ellipsis;
-lastChange = "2026-02-05 16:09:08 +0000";
+lastChange = "2026-03-20 14:21:23 +0000";
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+pos = (600,0);
 ref = period;
 },
 {
+pos = (1207,0);
 ref = period;
 },
 {
 ref = period;
 }
 );
-width = 491;
+width = 1698;
 },
 {
 layerId = "5152A785-FF48-4BC0-8F27-F3AFCF9810FE";
 shapes = (
 {
+pos = (600,0);
 ref = period;
 },
 {
+pos = (1207,0);
 ref = period;
 },
 {
 ref = period;
 }
 );
-width = 637;
+width = 1844;
 }
 );
+metricLeft = period;
+metricRight = period;
 unicode = 8230;
 },
 {
@@ -98133,7 +98139,7 @@ unicode = 785;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2026-03-20 13:52:31 +0000";
+lastChange = "2026-03-20 14:20:18 +0000";
 layers = (
 {
 anchors = (
@@ -98300,6 +98306,7 @@ width = 705;
 }
 );
 note = commaaccent;
+unicode = 806;
 },
 {
 glyphname = cedillacomb;
