@@ -75345,6 +75345,36 @@ width = 600;
 note = NULL;
 },
 {
+glyphname = lineseparator;
+lastChange = "2026-03-20 13:50:29 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = "5152A785-FF48-4BC0-8F27-F3AFCF9810FE";
+width = 600;
+}
+);
+unicode = 8232;
+},
+{
+glyphname = paragraphseparator;
+lastChange = "2026-03-20 13:50:29 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = "5152A785-FF48-4BC0-8F27-F3AFCF9810FE";
+width = 600;
+}
+);
+unicode = 8233;
+},
+{
 glyphname = period;
 lastChange = "2026-03-20 13:49:31 +0000";
 layers = (
