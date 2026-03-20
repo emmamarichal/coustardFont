@@ -66629,9 +66629,15 @@ unicode = 380;
 },
 {
 glyphname = fi;
-lastChange = "2026-03-20 13:52:30 +0000";
+lastChange = "2026-03-20 14:18:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (759.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -66961,6 +66967,12 @@ nodes = (
 width = 1519;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (862.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -67230,9 +67242,15 @@ unicode = 64257;
 },
 {
 glyphname = fl;
-lastChange = "2026-03-20 13:52:59 +0000";
+lastChange = "2026-03-20 14:18:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (690.5,0);
+}
+);
 background = {
 shapes = (
 {
@@ -67491,6 +67509,12 @@ nodes = (
 width = 1381;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (879,0);
+}
+);
 background = {
 shapes = (
 {
