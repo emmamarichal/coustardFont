@@ -79162,22 +79162,6 @@ note = hyphen;
 unicode = 45;
 },
 {
-glyphname = softhyphen;
-lastChange = "2026-02-05 13:58:51 +0000";
-layers = (
-{
-layerId = m01;
-width = 86;
-},
-{
-layerId = "5152A785-FF48-4BC0-8F27-F3AFCF9810FE";
-width = 250;
-}
-);
-note = uni00AD;
-unicode = 173;
-},
-{
 glyphname = endash;
 lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
