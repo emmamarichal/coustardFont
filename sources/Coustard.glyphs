@@ -100571,5 +100571,5 @@ name = vStem2;
 );
 unitsPerEm = 2048;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }
