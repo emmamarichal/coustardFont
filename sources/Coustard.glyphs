@@ -1,6 +1,10 @@
 {
 .appVersion = "3516";
 .formatVersion = 3;
+DisplayStrings = (
+"STRAẞEH
+3"
+);
 axes = (
 {
 name = Weight;
@@ -315,7 +319,7 @@ glyphs = (
 glyphname = A;
 kernLeft = A;
 kernRight = A;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:43 +0000";
 layers = (
 {
 anchors = (
@@ -443,18 +447,13 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (1299.27,179.73);
+place = (1299.27,187.73);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,32);
-target = (0,41);
-type = Stem;
-},
-{
-origin = (0,77);
-target = (0,38);
+origin = (0,80);
+target = (0,71);
 type = Stem;
 }
 );
@@ -3421,7 +3420,7 @@ unicode = 195;
 {
 glyphname = AE;
 kernLeft = A;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -3574,7 +3573,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,115);
 target = (0,46);
 type = Stem;
 },
@@ -3598,7 +3597,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,115);
 target = (0,106);
 type = Stem;
 },
@@ -4082,7 +4081,7 @@ unicode = 198;
 },
 {
 glyphname = B;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -4191,8 +4190,8 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (1,3);
-target = (2,7);
+origin = (1,4);
+target = (2,8);
 type = Stem;
 },
 {
@@ -4209,7 +4208,7 @@ type = Stem;
 },
 {
 origin = (0,33);
-target = (2,0);
+target = (2,8);
 type = Stem;
 },
 {
@@ -4570,7 +4569,7 @@ unicode = 66;
 },
 {
 glyphname = C;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -4647,7 +4646,7 @@ type = Stem;
 {
 horizontal = 1;
 origin = (0,26);
-target = (0,17);
+target = (0,18);
 type = Stem;
 },
 {
@@ -4656,7 +4655,7 @@ target = (0,11);
 type = Stem;
 },
 {
-origin = (0,28);
+origin = (0,29);
 target = (0,22);
 type = Stem;
 }
@@ -5630,7 +5629,7 @@ unicode = 266;
 },
 {
 glyphname = D;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -5710,8 +5709,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (1,7);
+origin = (0,36);
+target = (1,8);
 type = Stem;
 },
 {
@@ -5722,7 +5721,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,36);
 target = (0,30);
 type = Stem;
 },
@@ -5734,7 +5733,7 @@ type = Stem;
 },
 {
 origin = (0,27);
-target = (1,0);
+target = (1,8);
 type = Stem;
 },
 {
@@ -6004,7 +6003,7 @@ unicode = 68;
 },
 {
 glyphname = DZcaron;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -6168,8 +6167,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (1,7);
+origin = (2,60);
+target = (1,8);
 type = Stem;
 },
 {
@@ -6180,37 +6179,37 @@ type = TopGhost;
 },
 {
 horizontal = 1;
-origin = (0,17);
+origin = (2,32);
 target = (1,1);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
-target = (2,14);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,17);
-target = (2,44);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,5);
+origin = (2,60);
 target = (0,30);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,17);
+origin = (2,32);
 target = (0,23);
 type = Stem;
 },
 {
+horizontal = 1;
+origin = (2,60);
+target = (2,14);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (2,32);
+target = (2,44);
+type = Stem;
+},
+{
 origin = (0,27);
-target = (1,0);
+target = (1,8);
 type = Stem;
 },
 {
@@ -7572,7 +7571,7 @@ unicode = 453;
 },
 {
 glyphname = Eth;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -7682,8 +7681,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (1,27);
+origin = (0,50);
+target = (1,28);
 type = Stem;
 },
 {
@@ -7700,7 +7699,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,50);
 target = (0,44);
 type = Stem;
 },
@@ -7718,7 +7717,7 @@ type = Stem;
 },
 {
 origin = (0,41);
-target = (1,20);
+target = (1,28);
 type = Stem;
 },
 {
@@ -8082,7 +8081,7 @@ unicode = 208;
 },
 {
 glyphname = E;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -8193,8 +8192,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,77);
 target = (0,17);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,27);
+target = (0,33);
 type = Stem;
 },
 {
@@ -8205,7 +8210,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,77);
 target = (0,71);
 type = Stem;
 },
@@ -8213,12 +8218,6 @@ type = Stem;
 horizontal = 1;
 origin = (0,58);
 target = (0,64);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,27);
-target = (0,33);
 type = Stem;
 },
 {
@@ -10477,7 +10476,7 @@ unicode = 280;
 {
 glyphname = F;
 kernRight = F;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -10574,14 +10573,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,52);
-target = (0,34);
+origin = (0,71);
+target = (0,65);
 type = Stem;
 },
 {
@@ -10593,13 +10586,19 @@ type = Stem;
 {
 horizontal = 1;
 origin = (0,52);
-target = (0,58);
+target = (0,34);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (0,21);
 target = (0,27);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,52);
+target = (0,58);
 type = Stem;
 },
 {
@@ -10905,7 +10904,7 @@ unicode = 70;
 },
 {
 glyphname = G;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -11033,7 +11032,7 @@ target = (0,12);
 type = Stem;
 },
 {
-origin = (0,54);
+origin = (0,55);
 target = (0,48);
 type = Stem;
 }
@@ -12039,7 +12038,7 @@ unicode = 288;
 },
 {
 glyphname = H;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -12689,7 +12688,7 @@ unicode = 72;
 },
 {
 glyphname = Hbar;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -12865,7 +12864,7 @@ type = Stem;
 },
 {
 origin = (0,100);
-target = (1,2);
+target = (1,3);
 type = Stem;
 },
 {
@@ -13353,7 +13352,7 @@ unicode = 294;
 },
 {
 glyphname = I;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -13436,8 +13435,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,49);
+target = (0,43);
 type = Stem;
 },
 {
@@ -15777,7 +15776,7 @@ unicode = 296;
 },
 {
 glyphname = J;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -16255,7 +16254,7 @@ unicode = 308;
 },
 {
 glyphname = K;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -16374,8 +16373,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,79);
-target = (0,85);
+origin = (0,93);
+target = (0,6);
 type = Stem;
 },
 {
@@ -16386,14 +16385,8 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,54);
-target = (0,60);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,93);
-target = (0,6);
+origin = (0,79);
+target = (0,85);
 type = Stem;
 },
 {
@@ -16402,8 +16395,14 @@ place = (1295.21,207.79);
 type = Stem;
 },
 {
+horizontal = 1;
+origin = (0,54);
+target = (0,60);
+type = Stem;
+},
+{
 origin = (0,64);
-target = (0,39);
+target = (0,89);
 type = Stem;
 }
 );
@@ -17092,7 +17091,7 @@ unicode = 310;
 },
 {
 glyphname = L;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -17181,7 +17180,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,55);
 target = (0,17);
 type = Stem;
 },
@@ -17193,14 +17192,14 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,49);
+origin = (0,36);
+target = (0,24);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,36);
-target = (0,24);
+origin = (0,55);
+target = (0,49);
 type = Stem;
 },
 {
@@ -18131,7 +18130,7 @@ unicode = 319;
 },
 {
 glyphname = Lslash;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -18234,7 +18233,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,87);
 target = (0,17);
 type = Stem;
 },
@@ -18246,14 +18245,14 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,81);
+origin = (0,52);
+target = (0,40);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,52);
-target = (0,40);
+origin = (0,87);
+target = (0,81);
 type = Stem;
 },
 {
@@ -18569,7 +18568,7 @@ unicode = 321;
 },
 {
 glyphname = M;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -18700,25 +18699,19 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,43);
-target = (0,31);
+origin = (0,105);
+target = (0,99);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,83);
+origin = (0,86);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-origin = (0,83);
-target = (0,92);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,43);
+origin = (0,105);
 target = (0,49);
 type = Stem;
 },
@@ -18730,7 +18723,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,86);
+origin = (0,83);
 target = down;
 type = TopGhost;
 },
@@ -18739,6 +18732,12 @@ horizontal = 1;
 origin = (0,80);
 target = down;
 type = TopGhost;
+},
+{
+horizontal = 1;
+origin = (0,83);
+target = (0,92);
+type = Stem;
 },
 {
 origin = (0,96);
@@ -19184,7 +19183,7 @@ unicode = 77;
 },
 {
 glyphname = N;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -19297,12 +19296,6 @@ horizontal = 1;
 origin = (0,68);
 target = (0,74);
 type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,40);
-target = down;
-type = TopGhost;
 },
 {
 horizontal = 1;
@@ -20819,7 +20812,7 @@ unicode = 209;
 },
 {
 glyphname = O;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -22263,7 +22256,7 @@ unicode = 332;
 },
 {
 glyphname = Oslash;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -22907,7 +22900,7 @@ unicode = 213;
 },
 {
 glyphname = OE;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -23027,12 +23020,6 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,58);
-target = (1,5);
-type = Stem;
-},
-{
-horizontal = 1;
 origin = (0,2);
 target = (0,17);
 type = Stem;
@@ -23048,6 +23035,12 @@ horizontal = 1;
 origin = (0,52);
 target = down;
 type = TopGhost;
+},
+{
+horizontal = 1;
+origin = (0,58);
+target = (1,5);
+type = Stem;
 },
 {
 origin = (0,61);
@@ -23410,7 +23403,7 @@ unicode = 338;
 },
 {
 glyphname = P;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -23497,14 +23490,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,47);
+target = (0,41);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (0,16);
-target = (1,7);
+target = (1,8);
 type = Stem;
 },
 {
@@ -23514,8 +23507,8 @@ target = (1,1);
 type = Stem;
 },
 {
-origin = (0,37);
-target = (1,0);
+origin = (0,38);
+target = (1,8);
 type = Stem;
 },
 {
@@ -23827,7 +23820,7 @@ unicode = 80;
 },
 {
 glyphname = Thorn;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -23925,14 +23918,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,58);
+target = (0,52);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (0,16);
-target = (1,7);
+target = (1,8);
 type = Stem;
 },
 {
@@ -23948,8 +23941,8 @@ target = (0,45);
 type = Stem;
 },
 {
-origin = (0,48);
-target = (1,0);
+origin = (0,49);
+target = (1,8);
 type = Stem;
 },
 {
@@ -24265,7 +24258,7 @@ unicode = 222;
 },
 {
 glyphname = Q;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -24361,7 +24354,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,2,1,18);
+origin = (0,2,1,14);
 target = up;
 type = BottomGhost;
 },
@@ -24597,7 +24590,7 @@ unicode = 81;
 },
 {
 glyphname = R;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -24697,14 +24690,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,46);
-target = (0,52);
+origin = (0,60);
+target = (0,6);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,57);
-target = (1,7);
+origin = (0,9);
+target = (1,8);
 type = Stem;
 },
 {
@@ -24715,25 +24708,19 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,18);
-target = (1,1);
+origin = (0,46);
+target = (0,52);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,60);
-target = (0,6);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,9);
-target = (1,7);
+origin = (0,57);
+target = (1,8);
 type = Stem;
 },
 {
 origin = (0,31);
-target = (0,56);
+target = (1,8);
 type = Stem;
 },
 {
@@ -25831,7 +25818,7 @@ unicode = 342;
 },
 {
 glyphname = S;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -25913,20 +25900,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,48);
-target = up;
-type = BottomGhost;
+origin = (0,56);
+target = (0,36);
+type = Stem;
 },
 {
 horizontal = 1;
 origin = (0,27);
 target = (0,8);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,56);
-target = (0,36);
 type = Stem;
 },
 {
@@ -25937,7 +25918,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,48);
+origin = (0,49);
 target = (0,42);
 type = Stem;
 },
@@ -26962,23 +26943,263 @@ unicode = 536;
 {
 color = 9;
 glyphname = Germandbls;
-lastChange = "2026-02-05 16:09:08 +0000";
+lastChange = "2026-03-20 14:05:57 +0000";
 layers = (
 {
 layerId = m01;
-width = 1200;
-},
+shapes = (
 {
-layerId = "5152A785-FF48-4BC0-8F27-F3AFCF9810FE";
-width = 1200;
+closed = 1;
+nodes = (
+(1150,1329,o),
+(1231,1243,o),
+(1231,1135,cs),
+(1231,1021,o),
+(1140,900,o),
+(941,900,cs),
+(916,900,o),
+(806,900,o),
+(785,902,c),
+(771,887,o),
+(763,853,o),
+(763,807,cs),
+(763,734,o),
+(767,711,o),
+(775,707,c),
+(830,708,o),
+(881,712,o),
+(932,712,cs),
+(1132,712,o),
+(1331,688,o),
+(1331,423,cs),
+(1331,233,o),
+(1190,145,o),
+(1051,145,cs),
+(906,145,o),
+(795,226,o),
+(759,413,c),
+(759,416,o),
+(752,417,o),
+(742,417,cs),
+(702,417,o),
+(603,398,o),
+(603,387,c),
+(618,227,o),
+(645,126,o),
+(665,42,cs),
+(669,30,l),
+(832,-10,o),
+(916,-27,o),
+(1076,-27,cs),
+(1337,-27,o),
+(1556,123,o),
+(1556,435,cs),
+(1556,632,o),
+(1416,798,o),
+(1203,830,c),
+(1351,868,o),
+(1450,1001,o),
+(1450,1139,cs),
+(1450,1311,o),
+(1329,1516,o),
+(950,1516,cs),
+(509,1516,o),
+(235,1299,o),
+(235,820,cs),
+(235,263,ls),
+(235,230,o),
+(229,200,o),
+(172,200,cs),
+(118,200,o),
+(60,187,o),
+(60,152,cs),
+(60,95,o),
+(73,12,o),
+(113,-11,c),
+(177,-6,o),
+(304,0,o),
+(393,0,cs),
+(452,0,o),
+(466,50,o),
+(466,138,cs),
+(466,851,ls),
+(466,1119,o),
+(591,1329,o),
+(925,1329,cs)
+);
 }
 );
+width = 1591;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1573,-27,o),
+(1908,141,o),
+(1908,494,cs),
+(1908,671,o),
+(1736,877,o),
+(1510,895,c),
+(1642,932,o),
+(1730,1057,o),
+(1730,1181,cs),
+(1730,1348,o),
+(1591,1514,o),
+(1220,1514,cs),
+(1106,1514,o),
+(872,1513,o),
+(766,1503,cs),
+(640,1490,o),
+(504,1321,o),
+(504,1125,cs),
+(504,1092,o),
+(595,1024,o),
+(723,1024,cs),
+(795,1024,o),
+(864,1285,o),
+(1084,1285,cs),
+(1165,1285,o),
+(1231,1216,o),
+(1231,1123,cs),
+(1231,1023,o),
+(1143,948,o),
+(906,947,cs),
+(887,947,o),
+(868,948,o),
+(849,950,c),
+(811,933,o),
+(794,886,o),
+(794,820,cs),
+(794,719,o),
+(811,692,o),
+(840,689,c),
+(893,690,o),
+(955,695,o),
+(1016,695,cs),
+(1048,695,o),
+(1079,693,o),
+(1109,691,cs),
+(1197,685,o),
+(1280,608,o),
+(1280,497,cs),
+(1280,344,o),
+(1139,314,o),
+(1022,314,cs),
+(779,314,o),
+(675,460,o),
+(649,460,cs),
+(568,460,o),
+(445,378,o),
+(445,304,cs),
+(445,201,o),
+(576,55,o),
+(662,12,c),
+(829,-12,o),
+(998,-27,o),
+(1163,-27,cs)
+);
+}
+);
+};
+layerId = "5152A785-FF48-4BC0-8F27-F3AFCF9810FE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1763,1353,o),
+(1553,1516,o),
+(1174,1516,cs),
+(649,1516,o),
+(247,1314,o),
+(247,835,cs),
+(247,535,ls),
+(247,432,o),
+(237,321,o),
+(154,312,cs),
+(109,307,o),
+(65,301,o),
+(65,247,cs),
+(65,165,o),
+(82,15,o),
+(123,-13,c),
+(176,-5,o),
+(376,0,o),
+(576,0,cs),
+(631,1,o),
+(713,0,o),
+(738,0,cs),
+(797,0,o),
+(811,50,o),
+(811,138,cs),
+(811,851,ls),
+(811,1119,o),
+(876,1259,o),
+(1096,1259,cs),
+(1215,1259,o),
+(1301,1231,o),
+(1301,1123,cs),
+(1301,1023,o),
+(1220,948,o),
+(1001,947,cs),
+(983,947,o),
+(965,948,o),
+(948,950,c),
+(913,933,o),
+(897,886,o),
+(897,820,cs),
+(897,719,o),
+(913,692,o),
+(939,689,c),
+(989,690,o),
+(1046,695,o),
+(1102,695,cs),
+(1132,695,o),
+(1161,693,o),
+(1188,691,cs),
+(1270,685,o),
+(1381,633,o),
+(1381,497,cs),
+(1381,372,o),
+(1330,336,o),
+(1260,336,cs),
+(1139,336,o),
+(1077,460,o),
+(1053,460,cs),
+(978,460,o),
+(864,378,o),
+(864,304,cs),
+(864,201,o),
+(949,110,o),
+(1029,50,c),
+(1084,33,o),
+(1208,-27,o),
+(1385,-27,cs),
+(1599,-27,o),
+(1928,90,o),
+(1928,494,cs),
+(1928,671,o),
+(1769,877,o),
+(1560,895,c),
+(1682,932,o),
+(1763,1023,o),
+(1763,1151,cs)
+);
+}
+);
+width = 1972;
+}
+);
+metricLeft = H;
+metricRight = three;
 unicode = 7838;
 },
 {
 glyphname = T;
 kernRight = T;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -27075,14 +27296,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,54);
-target = (0,36);
+origin = (0,67);
+target = (0,61);
 type = Stem;
 },
 {
@@ -27092,7 +27307,13 @@ target = down;
 type = TopGhost;
 },
 {
-origin = (0,57);
+horizontal = 1;
+origin = (0,54);
+target = (0,36);
+type = Stem;
+},
+{
+origin = (0,58);
 target = (0,15);
 type = Stem;
 }
@@ -27676,7 +27897,7 @@ unicode = 538;
 },
 {
 glyphname = U;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -27779,8 +28000,8 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,18);
-target = (0,24);
+origin = (0,50);
+target = (0,56);
 type = Stem;
 },
 {
@@ -30206,7 +30427,7 @@ unicode = 366;
 glyphname = V;
 kernLeft = V;
 kernRight = V;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -30305,14 +30526,14 @@ type = BottomGhost;
 },
 {
 horizontal = 1;
-origin = (0,21);
-target = (0,6);
+origin = (0,51);
+target = (0,60);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,21);
-target = (0,6);
+origin = (0,51);
+target = (0,60);
 type = Stem;
 },
 {
@@ -30601,7 +30822,7 @@ unicode = 86;
 glyphname = W;
 kernLeft = V;
 kernRight = V;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -30714,20 +30935,20 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,7);
+origin = (0,87);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-origin = (0,29);
-target = (0,14);
+origin = (0,71);
+target = (0,77);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,29);
-target = (0,14);
+origin = (0,71);
+target = (0,77);
 type = Stem;
 },
 {
@@ -31262,7 +31483,7 @@ unicode = 7808;
 },
 {
 glyphname = X;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -31416,7 +31637,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,123);
 target = (0,114);
 type = Stem;
 },
@@ -31850,7 +32071,7 @@ unicode = 88;
 glyphname = Y;
 kernLeft = V;
 kernRight = V;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -31986,8 +32207,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,106);
+target = (0,100);
 type = Stem;
 },
 {
@@ -33033,7 +33254,7 @@ unicode = 7922;
 },
 {
 glyphname = Z;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -34089,7 +34310,7 @@ unicode = 379;
 {
 glyphname = a;
 kernLeft = a;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -34188,7 +34409,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,4);
+origin = (0,5);
 target = up;
 type = BottomGhost;
 },
@@ -34204,6 +34425,11 @@ target = (1,2);
 type = Stem;
 },
 {
+origin = (1,6);
+target = (0,21);
+type = Stem;
+},
+{
 origin = (0,2);
 target = (0,21);
 type = Stem;
@@ -34211,11 +34437,6 @@ type = Stem;
 {
 origin = (0,2);
 target = (0,14);
-type = Stem;
-},
-{
-origin = (1,6);
-target = (0,21);
 type = Stem;
 },
 {
@@ -36625,7 +36846,7 @@ unicode = 227;
 },
 {
 glyphname = ae;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -36726,14 +36947,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,48);
 target = (0,14);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (0,18);
-target = (2,5);
+target = (2,6);
 type = Stem;
 },
 {
@@ -36750,7 +36971,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,48);
 target = (1,9);
 type = Stem;
 },
@@ -37135,7 +37356,7 @@ unicode = 230;
 },
 {
 glyphname = b;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -37252,7 +37473,7 @@ type = BottomGhost;
 },
 {
 origin = (0,31);
-target = (0,8);
+target = (1,3);
 type = Stem;
 },
 {
@@ -37556,7 +37777,7 @@ unicode = 98;
 {
 glyphname = c;
 kernLeft = a;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -38460,7 +38681,7 @@ unicode = 267;
 {
 glyphname = d;
 kernLeft = a;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -38594,13 +38815,13 @@ target = (1,2);
 type = Stem;
 },
 {
-origin = (0,3);
-target = (0,21);
+origin = (1,9);
+target = (0,22);
 type = Stem;
 },
 {
 origin = (0,37);
-target = (0,21);
+target = (0,22);
 type = Stem;
 }
 );
@@ -39194,7 +39415,7 @@ unicode = 271;
 {
 glyphname = dcroat;
 kernLeft = a;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -39350,7 +39571,7 @@ target = (1,2);
 type = Stem;
 },
 {
-origin = (0,71);
+origin = (1,9);
 target = (0,35);
 type = Stem;
 }
@@ -39762,7 +39983,7 @@ unicode = 273;
 },
 {
 glyphname = eth;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -39870,30 +40091,29 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (1,11);
-target = (1,5);
+origin = (0,21);
+target = (1,11);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,15);
-target = (2,26);
+origin = (1,5);
+target = (0,15);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,15);
-target = (0,8);
+place = (1356,154);
 type = Stem;
 },
 {
 origin = (0,18);
-target = (2,8);
+target = (1,2);
 type = Stem;
 },
 {
-origin = (1,2);
-target = (1,8);
+origin = (1,8);
+target = (0,2);
 type = Stem;
 }
 );
@@ -40419,7 +40639,7 @@ unicode = 240;
 {
 glyphname = e;
 kernLeft = a;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -40492,7 +40712,7 @@ type = Stem;
 {
 horizontal = 1;
 origin = (0,12);
-target = (1,5);
+target = (1,6);
 type = Stem;
 },
 {
@@ -42119,7 +42339,7 @@ unicode = 281;
 {
 glyphname = f;
 kernRight = f;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -42221,8 +42441,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,76);
+target = (0,70);
 type = Stem;
 },
 {
@@ -42250,8 +42470,8 @@ target = (0,53);
 type = Stem;
 },
 {
-origin = (0,67);
-target = (0,14);
+origin = (0,29);
+target = (0,67);
 type = Stem;
 },
 {
@@ -42557,7 +42777,7 @@ unicode = 102;
 },
 {
 glyphname = g;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -42707,8 +42927,8 @@ target = up;
 type = BottomGhost;
 },
 {
-origin = (0,36);
-target = (2,2);
+origin = (1,5);
+target = (0,48);
 type = Stem;
 },
 {
@@ -42722,13 +42942,13 @@ target = (0,5);
 type = Stem;
 },
 {
-origin = (2,8);
-target = (0,14);
+origin = (0,36);
+target = (2,2);
 type = Stem;
 },
 {
-origin = (1,5);
-target = (0,48);
+origin = (2,8);
+target = (0,14);
 type = Stem;
 }
 );
@@ -43370,7 +43590,7 @@ unicode = 287;
 },
 {
 glyphname = gcommaaccent;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -43533,14 +43753,8 @@ target = up;
 type = BottomGhost;
 },
 {
-horizontal = 1;
-origin = (3,17);
-target = (3,5);
-type = Stem;
-},
-{
-origin = (0,36);
-target = (2,2);
+origin = (1,5);
+target = (0,48);
 type = Stem;
 },
 {
@@ -43559,13 +43773,13 @@ target = (0,5);
 type = Stem;
 },
 {
-origin = (2,8);
-target = (0,14);
+origin = (0,36);
+target = (2,2);
 type = Stem;
 },
 {
-origin = (1,5);
-target = (0,48);
+origin = (2,8);
+target = (0,14);
 type = Stem;
 },
 {
@@ -44257,7 +44471,7 @@ unicode = 289;
 },
 {
 glyphname = h;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -44366,8 +44580,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,31);
-target = (0,11);
+origin = (0,79);
+target = (0,73);
 type = Stem;
 },
 {
@@ -44384,7 +44598,7 @@ type = TopGhost;
 },
 {
 origin = (0,70);
-target = (0,47);
+target = (0,48);
 type = Stem;
 },
 {
@@ -44760,7 +44974,7 @@ unicode = 104;
 },
 {
 glyphname = hbar;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -44872,8 +45086,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,31);
-target = (0,11);
+origin = (0,96);
+target = (0,90);
 type = Stem;
 },
 {
@@ -44884,14 +45098,14 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,49);
-target = (0,55);
+origin = (0,69);
+target = (0,86);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,69);
-target = (0,49);
+origin = (0,86);
+target = (0,79);
 type = Stem;
 },
 {
@@ -44902,7 +45116,7 @@ type = Stem;
 },
 {
 origin = (0,87);
-target = (0,48);
+target = (0,57);
 type = Stem;
 },
 {
@@ -45510,7 +45724,7 @@ unicode = 105;
 },
 {
 glyphname = idotless;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -45583,8 +45797,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,43);
+target = (0,37);
 type = Stem;
 },
 {
@@ -45595,12 +45809,12 @@ type = TopGhost;
 },
 {
 origin = (0,34);
-target = (0,14);
+target = (0,15);
 type = Stem;
 },
 {
 origin = (0,27);
-target = (0,14);
+target = (0,15);
 type = Stem;
 }
 );
@@ -47898,7 +48112,7 @@ unicode = 106;
 },
 {
 glyphname = jdotless;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -47970,12 +48184,12 @@ type = TopGhost;
 },
 {
 origin = (0,22);
-target = (0,2);
+target = (0,3);
 type = Stem;
 },
 {
 origin = (0,15);
-target = (0,2);
+target = (0,3);
 type = Stem;
 }
 );
@@ -48356,7 +48570,7 @@ unicode = 309;
 },
 {
 glyphname = k;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -48480,8 +48694,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,31);
-target = (0,37);
+origin = (0,98);
+target = (0,92);
 type = Stem;
 },
 {
@@ -48497,17 +48711,17 @@ type = TopGhost;
 },
 {
 origin = (0,89);
-target = (0,66);
-type = Stem;
-},
-{
-origin = (0,82);
-target = (0,66);
+target = (0,67);
 type = Stem;
 },
 {
 origin = (0,59);
 target = (0,47);
+type = Stem;
+},
+{
+origin = (0,82);
+target = (0,67);
 type = Stem;
 }
 );
@@ -49197,7 +49411,7 @@ unicode = 311;
 },
 {
 glyphname = kgreenlandic;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -49323,8 +49537,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,31);
-target = (0,37);
+origin = (0,100);
+target = (0,94);
 type = Stem;
 },
 {
@@ -49334,7 +49548,7 @@ type = Stem;
 },
 {
 origin = (0,91);
-target = (0,68);
+target = (0,69);
 type = Stem;
 },
 {
@@ -49731,7 +49945,7 @@ unicode = 312;
 },
 {
 glyphname = l;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -49810,8 +50024,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,45);
+target = (0,39);
 type = Stem;
 },
 {
@@ -50665,7 +50879,7 @@ unicode = 320;
 },
 {
 glyphname = lslash;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -50758,8 +50972,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,45);
+target = (0,39);
 type = Stem;
 },
 {
@@ -51059,7 +51273,7 @@ unicode = 322;
 },
 {
 glyphname = m;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -51196,8 +51410,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,60);
-target = (0,11);
+origin = (0,111);
+target = (0,105);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,73);
+target = (0,47);
 type = Stem;
 },
 {
@@ -51213,14 +51433,8 @@ target = down;
 type = TopGhost;
 },
 {
-horizontal = 1;
-origin = (0,73);
-target = (0,47);
-type = Stem;
-},
-{
-origin = (0,95);
-target = (0,82);
+origin = (0,102);
+target = (0,15);
 type = Stem;
 },
 {
@@ -51234,8 +51448,8 @@ target = (0,70);
 type = Stem;
 },
 {
-origin = (0,102);
-target = (0,15);
+origin = (0,95);
+target = (0,83);
 type = Stem;
 }
 );
@@ -51697,7 +51911,7 @@ unicode = 109;
 },
 {
 glyphname = n;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -51801,8 +52015,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,31);
-target = (0,11);
+origin = (0,78);
+target = (0,72);
 type = Stem;
 },
 {
@@ -53278,7 +53492,7 @@ unicode = 241;
 {
 glyphname = o;
 kernLeft = a;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -54717,7 +54931,7 @@ unicode = 333;
 },
 {
 glyphname = oslash;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -55348,7 +55562,7 @@ unicode = 245;
 },
 {
 glyphname = oe;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -55439,14 +55653,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,36);
 target = (1,11);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (0,18);
-target = (2,5);
+target = (2,6);
 type = Stem;
 },
 {
@@ -55457,7 +55671,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,36);
 target = (0,14);
 type = Stem;
 },
@@ -55789,7 +56003,7 @@ unicode = 339;
 },
 {
 glyphname = p;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -55889,8 +56103,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,56);
+target = (0,50);
 type = Stem;
 },
 {
@@ -55913,7 +56127,7 @@ type = TopGhost;
 },
 {
 origin = (0,47);
-target = (0,14);
+target = (1,3);
 type = Stem;
 },
 {
@@ -56265,7 +56479,7 @@ unicode = 112;
 },
 {
 glyphname = thorn;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -56365,8 +56579,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,56);
+target = (0,50);
 type = Stem;
 },
 {
@@ -56389,7 +56603,7 @@ type = TopGhost;
 },
 {
 origin = (0,47);
-target = (1,2);
+target = (1,3);
 type = Stem;
 },
 {
@@ -56723,7 +56937,7 @@ unicode = 254;
 {
 glyphname = q;
 kernLeft = a;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -56816,8 +57030,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,49);
+target = (0,43);
 type = Stem;
 },
 {
@@ -56844,7 +57058,7 @@ target = (1,2);
 type = Stem;
 },
 {
-origin = (0,39);
+origin = (1,9);
 target = (0,15);
 type = Stem;
 }
@@ -57158,7 +57372,7 @@ unicode = 113;
 },
 {
 glyphname = r;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -57247,14 +57461,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,18);
-target = (0,31);
+origin = (0,63);
+target = (0,57);
 type = Stem;
 },
 {
@@ -57265,18 +57473,14 @@ type = TopGhost;
 },
 {
 horizontal = 1;
-origin = (0,25);
+origin = (0,18);
 target = (0,31);
 type = Stem;
 },
 {
-origin = (0,54);
-target = (0,34);
-type = Stem;
-},
-{
-origin = (0,47);
-target = (0,34);
+horizontal = 1;
+origin = (0,25);
+target = (0,31);
 type = Stem;
 },
 {
@@ -57286,6 +57490,16 @@ type = Stem;
 },
 {
 place = (701,226);
+type = Stem;
+},
+{
+origin = (0,54);
+target = (0,35);
+type = Stem;
+},
+{
+origin = (0,47);
+target = (0,35);
 type = Stem;
 }
 );
@@ -58028,7 +58242,7 @@ unicode = 343;
 },
 {
 glyphname = s;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -58108,8 +58322,8 @@ target = (0,21);
 type = Stem;
 },
 {
-origin = (0,24);
-target = (0,5);
+origin = (0,40);
+target = (0,34);
 type = Stem;
 },
 {
@@ -58118,12 +58332,12 @@ target = (0,2);
 type = Stem;
 },
 {
-place = (707,214);
+origin = (0,24);
+target = (0,5);
 type = Stem;
 },
 {
-origin = (0,40);
-target = (0,34);
+place = (707,214);
 type = Stem;
 }
 );
@@ -58956,7 +59170,7 @@ unicode = 537;
 },
 {
 glyphname = germandbls;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -59046,7 +59260,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,30);
+origin = (0,46);
 target = (0,42);
 type = Stem;
 },
@@ -59064,7 +59278,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,46);
+origin = (0,30);
 target = (0,42);
 type = Stem;
 },
@@ -59080,13 +59294,13 @@ target = (0,33);
 type = Stem;
 },
 {
-origin = (1,9);
-target = (0,8);
+origin = (0,39);
+target = (0,2);
 type = Stem;
 },
 {
-origin = (0,39);
-target = (0,2);
+origin = (1,9);
+target = (0,8);
 type = Stem;
 },
 {
@@ -59402,7 +59616,7 @@ unicode = 223;
 },
 {
 glyphname = t;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -59980,7 +60194,7 @@ unicode = 539;
 },
 {
 glyphname = u;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -60083,8 +60297,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,11);
-target = (0,17);
+origin = (0,69);
+target = (0,43);
 type = Stem;
 },
 {
@@ -60095,8 +60309,8 @@ type = TopGhost;
 },
 {
 horizontal = 1;
-origin = (0,69);
-target = (0,43);
+origin = (0,11);
+target = (0,17);
 type = Stem;
 },
 {
@@ -60105,13 +60319,13 @@ target = (0,47);
 type = Stem;
 },
 {
-origin = (0,40);
-target = (0,20);
+origin = (0,2);
+target = (0,21);
 type = Stem;
 },
 {
-origin = (0,2);
-target = (0,20);
+origin = (0,40);
+target = (0,21);
 type = Stem;
 }
 );
@@ -62691,7 +62905,7 @@ unicode = 367;
 },
 {
 glyphname = v;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -62794,13 +63008,13 @@ type = BottomGhost;
 },
 {
 horizontal = 1;
-origin = (0,21);
+origin = (0,55);
 target = (0,64);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,21);
+origin = (0,55);
 target = (0,28);
 type = Stem;
 },
@@ -63110,7 +63324,7 @@ unicode = 118;
 },
 {
 glyphname = w;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -63826,7 +64040,7 @@ unicode = 7809;
 },
 {
 glyphname = x;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -63955,31 +64169,31 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,31);
+origin = (0,103);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-origin = (0,57);
+origin = (0,83);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-place = (893.09,201.91);
-type = Stem;
-},
-{
-horizontal = 1;
 origin = (0,28);
-target = (0,37);
+target = (0,97);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,54);
-target = (0,45);
+origin = (0,80);
+target = (0,89);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (893.09,201.91);
 type = Stem;
 },
 {
@@ -64401,7 +64615,7 @@ unicode = 120;
 },
 {
 glyphname = y;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -64504,14 +64718,14 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,18);
+origin = (0,46);
 target = down;
 type = TopGhost;
 },
 {
 horizontal = 1;
-origin = (0,15);
-target = (0,6);
+origin = (0,43);
+target = (0,52);
 type = Stem;
 },
 {
@@ -65409,7 +65623,7 @@ unicode = 7923;
 },
 {
 glyphname = z;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 anchors = (
@@ -66427,7 +66641,7 @@ unicode = 380;
 },
 {
 glyphname = fi;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -66565,20 +66779,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,26);
-target = (0,93);
+origin = (0,105);
+target = (0,99);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,54);
-target = (1,5);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,54);
-target = (0,71);
+origin = (0,56);
+target = (0,95);
 type = Stem;
 },
 {
@@ -66588,33 +66796,41 @@ target = (1,11);
 type = Stem;
 },
 {
-origin = (0,93);
-target = (0,80);
+horizontal = 1;
+origin = (0,51);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = (0,62);
+target = (0,77);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,95);
+target = (0,82);
 type = Stem;
 },
 {
 origin = (0,56);
-target = (0,22);
+target = (0,96);
 type = Stem;
 },
 {
-origin = (0,8);
-target = (0,22);
+origin = (0,68);
+target = (0,74);
 type = Stem;
 },
 {
-origin = (0,59);
-target = (0,68);
+origin = (0,23);
+target = (0,48);
 type = Stem;
 },
 {
-origin = (0,74);
-target = (1,2);
-type = Stem;
-},
-{
-origin = (0,56);
-target = (0,29);
+origin = (0,96);
+target = (0,59);
 type = Stem;
 },
 {
@@ -67026,7 +67242,7 @@ unicode = 64257;
 },
 {
 glyphname = fl;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:59 +0000";
 layers = (
 {
 background = {
@@ -67139,38 +67355,42 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,28);
-target = (0,35);
+origin = (0,97);
+target = (0,91);
 type = Stem;
 },
 {
-origin = (0,85);
-target = (0,72);
+horizontal = 1;
+origin = (0,29);
+target = (0,87);
 type = Stem;
 },
 {
-origin = (0,14);
-target = (0,39);
+horizontal = 1;
+origin = (0,35);
+target = (0,69);
 type = Stem;
 },
 {
-origin = (0,32);
-target = (0,39);
+horizontal = 1;
+origin = (0,25);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = (0,87);
+target = (0,74);
 type = Stem;
 },
 {
-origin = (0,22);
-target = (0,39);
+origin = (0,29);
+target = (0,88);
 type = Stem;
 },
 {
-origin = (0,8);
-target = (0,39);
-type = Stem;
-},
-{
-origin = (0,14);
-target = (0,45);
+origin = (0,39);
+target = (0,63);
 type = Stem;
 }
 );
@@ -67215,7 +67435,7 @@ nodes = (
 (444,1314,o),
 (498,1401,o),
 (664,1401,cs),
-(774.51,1401,o),
+(775,1401,o),
 (966,1405,o),
 (966,1364,cs),
 (966,249,ls),
@@ -67247,7 +67467,7 @@ nodes = (
 (1194,1440,o),
 (1194,1457,cs),
 (1194,1537,o),
-(947.52,1546,o),
+(948,1546,o),
 (680,1546,cs),
 (419,1546,o),
 (229,1462,o),
@@ -67545,7 +67765,7 @@ unicode = 64258;
 },
 {
 glyphname = ordfeminine;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -67634,6 +67854,11 @@ target = (1,2);
 type = Stem;
 },
 {
+origin = (1,6);
+target = (0,21);
+type = Stem;
+},
+{
 origin = (0,2);
 target = (0,21);
 type = Stem;
@@ -67641,11 +67866,6 @@ type = Stem;
 {
 origin = (0,2);
 target = (0,14);
-type = Stem;
-},
-{
-origin = (1,6);
-target = (0,21);
 type = Stem;
 },
 {
@@ -67910,7 +68130,7 @@ unicode = 170;
 },
 {
 glyphname = ordmasculine;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -68122,7 +68342,7 @@ unicode = 186;
 },
 {
 glyphname = zero;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -68334,7 +68554,7 @@ unicode = 48;
 },
 {
 glyphname = one;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -68393,8 +68613,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,43);
+target = (0,37);
 type = Stem;
 },
 {
@@ -68404,13 +68624,13 @@ target = (0,30);
 type = Stem;
 },
 {
-origin = (0,34);
-target = (0,14);
+origin = (0,40);
+target = (0,15);
 type = Stem;
 },
 {
-origin = (0,40);
-target = (0,14);
+origin = (0,34);
+target = (0,15);
 type = Stem;
 }
 );
@@ -68607,7 +68827,7 @@ unicode = 49;
 },
 {
 glyphname = two;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -68666,7 +68886,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,0);
+origin = (0,43);
 target = (0,16);
 type = Stem;
 },
@@ -68879,7 +69099,7 @@ unicode = 50;
 },
 {
 glyphname = three;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -69255,7 +69475,7 @@ unicode = 51;
 },
 {
 glyphname = four;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -69365,8 +69585,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,67);
+target = (0,61);
 type = Stem;
 },
 {
@@ -69388,7 +69608,7 @@ target = (0,28);
 type = Stem;
 },
 {
-origin = (0,57);
+origin = (1,15);
 target = (0,32);
 type = Stem;
 }
@@ -69754,7 +69974,7 @@ unicode = 52;
 },
 {
 glyphname = five;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -69859,7 +70079,7 @@ type = TopGhost;
 },
 {
 origin = (0,34);
-target = (0,8);
+target = (0,9);
 type = Stem;
 },
 {
@@ -70138,7 +70358,7 @@ unicode = 53;
 },
 {
 glyphname = six;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -70449,7 +70669,7 @@ unicode = 54;
 },
 {
 glyphname = seven;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -70703,7 +70923,7 @@ unicode = 55;
 },
 {
 glyphname = eight;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -70787,8 +71007,8 @@ target = (2,5);
 type = Stem;
 },
 {
-origin = (0,14);
-target = (2,2);
+origin = (0,20);
+target = (1,2);
 type = Stem;
 },
 {
@@ -70797,13 +71017,13 @@ target = (0,8);
 type = Stem;
 },
 {
-origin = (0,20);
-target = (1,2);
+origin = (1,8);
+target = (0,2);
 type = Stem;
 },
 {
-origin = (1,8);
-target = (0,2);
+origin = (0,14);
+target = (2,2);
 type = Stem;
 }
 );
@@ -71051,7 +71271,7 @@ unicode = 56;
 },
 {
 glyphname = nine;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -71364,7 +71584,7 @@ unicode = 57;
 },
 {
 glyphname = onehalf;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -71501,14 +71721,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (2,0);
+origin = (2,43);
 target = (2,16);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (1,5);
-target = (1,11);
+origin = (1,43);
+target = (1,37);
 type = Stem;
 },
 {
@@ -71525,7 +71745,7 @@ type = Stem;
 },
 {
 origin = (1,34);
-target = (1,14);
+target = (1,15);
 type = Stem;
 },
 {
@@ -71535,7 +71755,7 @@ type = Stem;
 },
 {
 origin = (1,40);
-target = (1,14);
+target = (1,15);
 type = Stem;
 }
 );
@@ -71986,7 +72206,7 @@ unicode = 189;
 },
 {
 glyphname = onequarter;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -72174,14 +72394,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (2,5);
-target = (2,11);
+origin = (2,67);
+target = (2,61);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (1,5);
-target = (1,11);
+origin = (2,57);
+target = (3,21);
 type = Stem;
 },
 {
@@ -72198,8 +72418,8 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (2,57);
-target = (3,21);
+origin = (1,43);
+target = (1,37);
 type = Stem;
 },
 {
@@ -72210,17 +72430,17 @@ type = Stem;
 },
 {
 origin = (1,34);
-target = (1,14);
+target = (1,15);
 type = Stem;
 },
 {
-origin = (2,57);
+origin = (3,15);
 target = (2,32);
 type = Stem;
 },
 {
 origin = (1,40);
-target = (1,14);
+target = (1,15);
 type = Stem;
 }
 );
@@ -72837,7 +73057,7 @@ unicode = 188;
 },
 {
 glyphname = threequarters;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -73053,14 +73273,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (2,5);
-target = (2,11);
+origin = (2,67);
+target = (2,61);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (1,71);
-target = (1,52);
+origin = (2,57);
+target = (3,21);
 type = Stem;
 },
 {
@@ -73077,20 +73297,20 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (1,68);
-target = (3,21);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (2,57);
-target = (3,21);
+origin = (1,71);
+target = (1,52);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (1,46);
 target = (1,33);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (1,68);
+target = (3,21);
 type = Stem;
 },
 {
@@ -73105,7 +73325,7 @@ target = (1,2);
 type = Stem;
 },
 {
-origin = (2,57);
+origin = (3,15);
 target = (2,32);
 type = Stem;
 },
@@ -73806,7 +74026,7 @@ unicode = 190;
 },
 {
 glyphname = onesuperior;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -73865,8 +74085,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,43);
+target = (0,37);
 type = Stem;
 },
 {
@@ -73876,13 +74096,13 @@ target = (0,30);
 type = Stem;
 },
 {
-origin = (0,34);
-target = (0,14);
+origin = (0,40);
+target = (0,15);
 type = Stem;
 },
 {
-origin = (0,40);
-target = (0,14);
+origin = (0,34);
+target = (0,15);
 type = Stem;
 }
 );
@@ -74072,7 +74292,7 @@ unicode = 185;
 },
 {
 glyphname = twosuperior;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -74131,7 +74351,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,0);
+origin = (0,43);
 target = (0,16);
 type = Stem;
 },
@@ -74344,7 +74564,7 @@ unicode = 178;
 },
 {
 glyphname = threesuperior;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -74722,7 +74942,7 @@ unicode = 179;
 },
 {
 glyphname = foursuperior;
-lastChange = "2026-03-20 13:49:30 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -74832,8 +75052,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,67);
+target = (0,61);
 type = Stem;
 },
 {
@@ -74856,7 +75076,7 @@ type = Stem;
 },
 {
 origin = (0,32);
-target = (0,57);
+target = (1,15);
 type = Stem;
 }
 );
@@ -75376,7 +75596,7 @@ unicode = 8233;
 },
 {
 glyphname = period;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -75498,7 +75718,7 @@ unicode = 46;
 },
 {
 glyphname = comma;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -75536,12 +75756,12 @@ target = (0,5);
 type = Stem;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 }
@@ -75649,7 +75869,7 @@ unicode = 44;
 },
 {
 glyphname = colon;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -75704,8 +75924,8 @@ target = (0,5);
 type = Stem;
 },
 {
-origin = (0,8);
-target = (0,2);
+origin = (1,8);
+target = (1,2);
 type = Stem;
 }
 );
@@ -75851,7 +76071,7 @@ unicode = 58;
 },
 {
 glyphname = semicolon;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -75918,8 +76138,8 @@ target = (0,5);
 type = Stem;
 },
 {
-origin = (0,8);
-target = (1,2);
+origin = (1,8);
+target = (0,2);
 type = Stem;
 },
 {
@@ -75928,8 +76148,8 @@ target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
-target = (0,2);
+origin = (1,8);
+target = (1,2);
 type = Stem;
 }
 );
@@ -76130,7 +76350,7 @@ unicode = 8230;
 },
 {
 glyphname = exclam;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -76365,7 +76585,7 @@ unicode = 33;
 },
 {
 glyphname = exclamdown;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -76427,13 +76647,13 @@ target = (1,11);
 type = Stem;
 },
 {
-origin = (1,8);
-target = (1,2);
+origin = (0,15);
+target = (0,3);
 type = Stem;
 },
 {
-origin = (0,15);
-target = (0,3);
+origin = (1,8);
+target = (1,2);
 type = Stem;
 }
 );
@@ -76606,7 +76826,7 @@ unicode = 161;
 },
 {
 glyphname = question;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -76689,8 +76909,8 @@ target = (0,24);
 type = Stem;
 },
 {
-origin = (1,8);
-target = (1,2);
+origin = (0,33);
+target = (0,5);
 type = Stem;
 },
 {
@@ -76699,13 +76919,13 @@ target = (0,8);
 type = Stem;
 },
 {
-origin = (0,33);
-target = (0,5);
+origin = (0,14);
+target = (0,21);
 type = Stem;
 },
 {
-origin = (0,14);
-target = (0,21);
+origin = (1,8);
+target = (1,2);
 type = Stem;
 }
 );
@@ -76955,7 +77175,7 @@ unicode = 63;
 },
 {
 glyphname = questiondown;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -77043,11 +77263,6 @@ target = (0,15);
 type = Stem;
 },
 {
-origin = (1,8);
-target = (1,2);
-type = Stem;
-},
-{
 origin = (0,9);
 target = (0,2);
 type = Stem;
@@ -77055,6 +77270,11 @@ type = Stem;
 {
 origin = (0,33);
 target = (0,21);
+type = Stem;
+},
+{
+origin = (1,8);
+target = (1,2);
 type = Stem;
 }
 );
@@ -77310,7 +77530,7 @@ unicode = 191;
 },
 {
 glyphname = periodcentered;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -77432,7 +77652,7 @@ unicode = 183;
 },
 {
 glyphname = bullet;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -77554,7 +77774,7 @@ unicode = 8226;
 },
 {
 glyphname = asterisk;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -77877,7 +78097,7 @@ unicode = 42;
 },
 {
 glyphname = numbersign;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -78471,7 +78691,7 @@ unicode = 35;
 },
 {
 glyphname = slash;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -78629,7 +78849,7 @@ unicode = 47;
 },
 {
 glyphname = backslash;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -78787,7 +79007,7 @@ unicode = 92;
 },
 {
 glyphname = hyphen;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -78971,7 +79191,7 @@ unicode = 173;
 },
 {
 glyphname = endash;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -79157,7 +79377,7 @@ unicode = 8211;
 },
 {
 glyphname = emdash;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -79343,7 +79563,7 @@ unicode = 8212;
 },
 {
 glyphname = underscore;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -79529,7 +79749,7 @@ unicode = 95;
 },
 {
 glyphname = parenleft;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -79675,7 +79895,7 @@ unicode = 40;
 },
 {
 glyphname = parenright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -79827,7 +80047,7 @@ unicode = 41;
 },
 {
 glyphname = braceleft;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -79907,7 +80127,7 @@ target = (0,29);
 type = Stem;
 },
 {
-origin = (0,32);
+origin = (0,44);
 target = (0,17);
 type = Stem;
 }
@@ -80117,7 +80337,7 @@ unicode = 123;
 },
 {
 glyphname = braceright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -80198,7 +80418,7 @@ type = Stem;
 },
 {
 origin = (0,35);
-target = (0,2);
+target = (0,14);
 type = Stem;
 }
 );
@@ -80407,7 +80627,7 @@ unicode = 125;
 },
 {
 glyphname = bracketleft;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:30 +0000";
 layers = (
 {
 background = {
@@ -80460,7 +80680,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,37);
 target = (0,11);
 type = Stem;
 },
@@ -80471,13 +80691,13 @@ target = (0,18);
 type = Stem;
 },
 {
-origin = (0,34);
-target = (0,14);
+origin = (0,27);
+target = (0,34);
 type = Stem;
 },
 {
 origin = (0,34);
-target = (0,8);
+target = (0,21);
 type = Stem;
 }
 );
@@ -80674,7 +80894,7 @@ unicode = 91;
 },
 {
 glyphname = bracketright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -80727,7 +80947,7 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,37);
 target = (0,31);
 type = Stem;
 },
@@ -80738,12 +80958,12 @@ target = (0,24);
 type = Stem;
 },
 {
-origin = (0,27);
+origin = (0,34);
 target = (0,9);
 type = Stem;
 },
 {
-origin = (0,21);
+origin = (0,28);
 target = (0,9);
 type = Stem;
 }
@@ -80935,7 +81155,7 @@ unicode = 93;
 },
 {
 glyphname = quotesinglbase;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -80973,12 +81193,12 @@ target = (0,5);
 type = Stem;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 }
@@ -81086,7 +81306,7 @@ unicode = 8218;
 },
 {
 glyphname = quotedblbase;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -81152,12 +81372,12 @@ target = (1,2);
 type = Stem;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 },
@@ -81344,7 +81564,7 @@ unicode = 8222;
 },
 {
 glyphname = quotedblleft;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -81400,25 +81620,15 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,11);
-target = down;
-type = TopGhost;
+origin = (1,11);
+target = (1,17);
+type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,11);
-target = (0,17);
-type = Stem;
-},
-{
-origin = (1,14);
-target = (1,5);
-type = Stem;
-},
-{
-origin = (0,14);
-target = (0,2);
-type = Stem;
+origin = (1,11);
+target = down;
+type = TopGhost;
 },
 {
 origin = (1,14);
@@ -81427,7 +81637,17 @@ type = Stem;
 },
 {
 origin = (0,14);
+target = (0,2);
+type = Stem;
+},
+{
+origin = (0,14);
 target = (0,5);
+type = Stem;
+},
+{
+origin = (1,14);
+target = (1,5);
 type = Stem;
 }
 );
@@ -81608,7 +81828,7 @@ unicode = 8220;
 },
 {
 glyphname = quotedblright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -81674,12 +81894,12 @@ target = (1,2);
 type = Stem;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 },
@@ -81866,7 +82086,7 @@ unicode = 8221;
 },
 {
 glyphname = quoteleft;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -81905,12 +82125,12 @@ type = TopGhost;
 },
 {
 origin = (0,14);
-target = (0,5);
+target = (0,2);
 type = Stem;
 },
 {
 origin = (0,14);
-target = (0,2);
+target = (0,5);
 type = Stem;
 }
 );
@@ -82017,7 +82237,7 @@ unicode = 8216;
 },
 {
 glyphname = quoteright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -82055,12 +82275,12 @@ target = down;
 type = TopGhost;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 }
@@ -82168,7 +82388,7 @@ unicode = 8217;
 },
 {
 glyphname = guillemetleft;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -82519,7 +82739,7 @@ unicode = 171;
 },
 {
 glyphname = guillemetright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -82591,14 +82811,14 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,25);
+origin = (1,25);
 target = up;
 type = BottomGhost;
 },
 {
 horizontal = 1;
-origin = (0,11);
-target = (0,7);
+origin = (1,11);
+target = (1,8);
 type = Stem;
 },
 {
@@ -82855,7 +83075,7 @@ unicode = 187;
 },
 {
 glyphname = guilsinglleft;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -82899,6 +83119,12 @@ horizontal = 1;
 origin = (0,25);
 target = up;
 type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,13);
+target = down;
+type = TopGhost;
 },
 {
 horizontal = 1;
@@ -83064,7 +83290,7 @@ unicode = 8249;
 },
 {
 glyphname = guilsinglright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -83118,7 +83344,7 @@ type = TopGhost;
 {
 horizontal = 1;
 origin = (0,11);
-target = (0,7);
+target = (0,8);
 type = Stem;
 },
 {
@@ -83274,7 +83500,7 @@ unicode = 8250;
 },
 {
 glyphname = quotedbl;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -83340,12 +83566,12 @@ target = (1,2);
 type = Stem;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 },
@@ -83532,7 +83758,7 @@ unicode = 34;
 },
 {
 glyphname = quotesingle;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -83570,12 +83796,12 @@ target = down;
 type = TopGhost;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 }
@@ -83683,7 +83909,7 @@ unicode = 39;
 },
 {
 glyphname = at;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -84178,7 +84404,7 @@ unicode = 64;
 },
 {
 glyphname = ampersand;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -84288,13 +84514,18 @@ target = (0,56);
 type = Stem;
 },
 {
-origin = (0,38);
-target = (0,65);
+origin = (0,74);
+target = (0,29);
 type = Stem;
 },
 {
 origin = (0,71);
 target = (0,32);
+type = Stem;
+},
+{
+origin = (0,38);
+target = (0,65);
 type = Stem;
 },
 {
@@ -84305,11 +84536,6 @@ type = Stem;
 {
 origin = (0,19);
 target = (0,15);
-type = Stem;
-},
-{
-origin = (0,74);
-target = (0,29);
 type = Stem;
 }
 );
@@ -84681,7 +84907,7 @@ unicode = 38;
 },
 {
 glyphname = paragraph;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -84765,12 +84991,12 @@ hints = (
 {
 horizontal = 1;
 origin = (0,15);
-target = (0,49);
+target = (0,52);
 type = Stem;
 },
 {
 horizontal = 1;
-place = (1353.16,200.84);
+place = (1353.16,212.84);
 type = Stem;
 },
 {
@@ -85049,7 +85275,7 @@ unicode = 182;
 },
 {
 glyphname = section;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -85169,11 +85395,6 @@ target = (1,5);
 type = Stem;
 },
 {
-origin = (1,14);
-target = (0,8);
-type = Stem;
-},
-{
 origin = (0,47);
 target = (0,2);
 type = Stem;
@@ -85181,6 +85402,11 @@ type = Stem;
 {
 origin = (0,35);
 target = (0,14);
+type = Stem;
+},
+{
+origin = (1,14);
+target = (0,8);
 type = Stem;
 }
 );
@@ -85521,7 +85747,7 @@ unicode = 167;
 },
 {
 glyphname = copyright;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -85630,7 +85856,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (2,37);
+origin = (2,38);
 target = down;
 type = TopGhost;
 },
@@ -85991,7 +86217,7 @@ unicode = 169;
 },
 {
 glyphname = registered;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -86128,7 +86354,7 @@ type = Stem;
 },
 {
 origin = (2,20);
-target = (3,1);
+target = (3,3);
 type = Stem;
 }
 );
@@ -86443,7 +86669,7 @@ unicode = 174;
 },
 {
 glyphname = trademark;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -86630,14 +86856,49 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (1,5);
-target = (1,11);
+origin = (0,102);
+target = (0,96);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (1,34);
 target = (1,50);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,102);
+target = (0,49);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,83);
+target = (0,56);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (1,63);
+target = (1,57);
+type = Stem;
+},
+{
+horizontal = 1;
+origin = (0,86);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+origin = (0,80);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (1357.52,137.48);
 type = Stem;
 },
 {
@@ -86653,47 +86914,8 @@ target = down;
 type = TopGhost;
 },
 {
-horizontal = 1;
-origin = (0,86);
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-origin = (0,43);
-target = (0,31);
-type = Stem;
-},
-{
-horizontal = 1;
-place = (1357.52,137.48);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,43);
-target = (0,49);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,83);
-target = (0,56);
-type = Stem;
-},
-{
-horizontal = 1;
-origin = (0,80);
-target = down;
-type = TopGhost;
-},
-{
-origin = (1,53);
+origin = (1,54);
 target = (1,15);
-type = Stem;
-},
-{
-place = (755,133);
 type = Stem;
 },
 {
@@ -86704,6 +86926,10 @@ type = Stem;
 {
 origin = (0,28);
 target = (0,53);
+type = Stem;
+},
+{
+place = (755,133);
 type = Stem;
 }
 );
@@ -87362,7 +87588,7 @@ unicode = 8482;
 },
 {
 glyphname = degree;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -87574,7 +87800,7 @@ unicode = 176;
 },
 {
 glyphname = bar;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -87602,7 +87828,7 @@ nodes = (
 };
 hints = (
 {
-origin = (0,9);
+origin = (0,10);
 target = (0,3);
 type = Stem;
 }
@@ -87712,7 +87938,7 @@ unicode = 124;
 },
 {
 glyphname = brokenbar;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -87759,7 +87985,7 @@ nodes = (
 };
 hints = (
 {
-origin = (1,9);
+origin = (1,10);
 target = (1,3);
 type = Stem;
 }
@@ -87939,7 +88165,7 @@ unicode = 166;
 },
 {
 glyphname = cent;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -88063,17 +88289,17 @@ type = Stem;
 },
 {
 origin = (0,88);
-target = (0,3);
+target = (0,67);
+type = Stem;
+},
+{
+origin = (0,57);
+target = (0,48);
 type = Stem;
 },
 {
 origin = (0,38);
 target = (0,44);
-type = Stem;
-},
-{
-origin = (0,12);
-target = (0,19);
 type = Stem;
 }
 );
@@ -88410,7 +88636,7 @@ unicode = 162;
 },
 {
 glyphname = currency;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -88906,7 +89132,7 @@ unicode = 164;
 },
 {
 glyphname = dollar;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -89053,11 +89279,11 @@ type = Stem;
 },
 {
 origin = (3,6);
-target = (2,3,4,21);
+target = (0,24,3,2);
 type = Stem;
 },
 {
-origin = (0,2,2,3);
+origin = (0,2,2,7);
 target = (2,3);
 type = Stem;
 },
@@ -89088,7 +89314,7 @@ type = Stem;
 },
 {
 origin = (1,4);
-target = (0,7,4,40);
+target = (0,43,1,2);
 type = Stem;
 }
 );
@@ -89492,7 +89718,7 @@ unicode = 36;
 },
 {
 glyphname = euro;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -89614,13 +89840,13 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,12);
-target = (0,28);
+origin = (0,97);
+target = (0,84);
 type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,34);
+origin = (0,35);
 target = (0,64);
 type = Stem;
 },
@@ -90024,7 +90250,7 @@ unicode = 8364;
 },
 {
 glyphname = sterling;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -90137,7 +90363,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,80);
+origin = (0,81);
 target = (0,37);
 type = Stem;
 },
@@ -90167,7 +90393,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,80);
+origin = (0,81);
 target = (0,69);
 type = Stem;
 },
@@ -90549,7 +90775,7 @@ unicode = 163;
 },
 {
 glyphname = yen;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -90731,8 +90957,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,166);
+target = (0,160);
 type = Stem;
 },
 {
@@ -90772,17 +90998,17 @@ type = Stem;
 },
 {
 horizontal = 1;
-origin = (0,5);
+origin = (0,166);
 target = (0,141);
 type = Stem;
 },
 {
-origin = (0,156);
+origin = (0,157);
 target = (0,15);
 type = Stem;
 },
 {
-origin = (0,156);
+origin = (0,157);
 target = (0,30);
 type = Stem;
 }
@@ -91335,7 +91561,7 @@ unicode = 165;
 },
 {
 glyphname = plus;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -91421,13 +91647,13 @@ target = (0,39);
 type = Stem;
 },
 {
-origin = (0,38);
-target = (0,25);
+origin = (0,53);
+target = (0,5);
 type = Stem;
 },
 {
-origin = (0,53);
-target = (0,5);
+origin = (0,38);
+target = (0,25);
 type = Stem;
 }
 );
@@ -91697,7 +91923,7 @@ unicode = 8722;
 },
 {
 glyphname = multiply;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -91983,7 +92209,7 @@ unicode = 215;
 },
 {
 glyphname = divide;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -92329,7 +92555,7 @@ unicode = 247;
 },
 {
 glyphname = equal;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -92659,7 +92885,7 @@ unicode = 61;
 },
 {
 glyphname = greater;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -92713,7 +92939,7 @@ type = TopGhost;
 {
 horizontal = 1;
 origin = (0,11);
-target = (0,7);
+target = (0,8);
 type = Stem;
 },
 {
@@ -92869,7 +93095,7 @@ unicode = 62;
 },
 {
 glyphname = less;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -92913,6 +93139,12 @@ horizontal = 1;
 origin = (0,25);
 target = up;
 type = BottomGhost;
+},
+{
+horizontal = 1;
+origin = (0,13);
+target = down;
+type = TopGhost;
 },
 {
 horizontal = 1;
@@ -93078,7 +93310,7 @@ unicode = 60;
 },
 {
 glyphname = plusminus;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -93206,13 +93438,13 @@ target = up;
 type = BottomGhost;
 },
 {
-origin = (0,38);
-target = (0,25);
+origin = (0,53);
+target = (0,5);
 type = Stem;
 },
 {
-origin = (0,53);
-target = (0,5);
+origin = (0,38);
+target = (0,25);
 type = Stem;
 }
 );
@@ -93558,7 +93790,7 @@ unicode = 177;
 },
 {
 glyphname = asciitilde;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -93808,7 +94040,7 @@ unicode = 126;
 },
 {
 glyphname = logicalnot;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -93858,13 +94090,13 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,23);
+origin = (0,24);
 target = (0,12);
 type = Stem;
 },
 {
 origin = (0,28);
-target = (0,5);
+target = (0,6);
 type = Stem;
 }
 );
@@ -94022,7 +94254,7 @@ unicode = 172;
 },
 {
 glyphname = asciicircum;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -94064,8 +94296,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,7);
-target = (0,16);
+origin = (0,26);
+target = (0,17);
 type = Stem;
 },
 {
@@ -94204,7 +94436,7 @@ unicode = 94;
 },
 {
 glyphname = micro;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -94314,8 +94546,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (0,94);
+target = (0,88);
 type = Stem;
 },
 {
@@ -94332,6 +94564,12 @@ type = TopGhost;
 },
 {
 horizontal = 1;
+origin = (0,15);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
 origin = (0,18);
 target = (0,62);
 type = Stem;
@@ -94343,24 +94581,18 @@ target = down;
 type = TopGhost;
 },
 {
-horizontal = 1;
-origin = (0,15);
-target = up;
-type = BottomGhost;
-},
-{
-origin = (0,15);
-target = (0,85);
+origin = (0,85);
+target = (0,66);
 type = Stem;
 },
 {
 origin = (0,59);
-target = (0,39);
+target = (0,40);
 type = Stem;
 },
 {
 origin = (0,21);
-target = (0,39);
+target = (0,40);
 type = Stem;
 }
 );
@@ -94712,7 +94944,7 @@ unicode = 181;
 },
 {
 glyphname = percent;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 background = {
@@ -95238,7 +95470,7 @@ unicode = 37;
 },
 {
 glyphname = dieresiscomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -95292,8 +95524,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (1,5);
+target = (1,11);
 type = Stem;
 },
 {
@@ -95458,7 +95690,7 @@ unicode = 776;
 },
 {
 glyphname = dotaccentcomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -95600,7 +95832,7 @@ unicode = 775;
 },
 {
 glyphname = gravecomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -95758,7 +95990,7 @@ unicode = 768;
 },
 {
 glyphname = acutecomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -95916,7 +96148,7 @@ unicode = 769;
 },
 {
 glyphname = hungarumlautcomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -96159,13 +96391,31 @@ unicode = 779;
 {
 color = 9;
 glyphname = caroncomb.alt;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
 {
 name = _topright;
 pos = (77,1489);
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = (0,5);
+target = (0,17);
+type = Stem;
+},
+{
+origin = (0,8);
+target = (0,2);
+type = Stem;
+},
+{
+origin = (0,11);
+target = (0,2);
+type = Stem;
 }
 );
 layerId = m01;
@@ -96235,7 +96485,7 @@ width = 600;
 },
 {
 glyphname = circumflexcomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -96287,8 +96537,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,7);
-target = (0,16);
+origin = (0,26);
+target = (0,17);
 type = Stem;
 },
 {
@@ -96437,7 +96687,7 @@ unicode = 770;
 },
 {
 glyphname = caroncomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -96639,7 +96889,7 @@ unicode = 780;
 },
 {
 glyphname = brevecomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -96801,7 +97051,7 @@ unicode = 774;
 },
 {
 glyphname = ringcomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -97033,7 +97283,7 @@ unicode = 778;
 },
 {
 glyphname = tildecomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -97311,7 +97561,7 @@ unicode = 771;
 },
 {
 glyphname = macroncomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -97483,7 +97733,7 @@ unicode = 772;
 },
 {
 glyphname = dblgravecomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -97725,7 +97975,7 @@ unicode = 783;
 },
 {
 glyphname = breveinvertedcomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -97765,13 +98015,13 @@ hints = (
 {
 horizontal = 1;
 origin = (0,10);
-target = (0,3);
+target = (0,13);
 type = Stem;
 },
 {
 horizontal = 1;
 origin = (0,10);
-target = (0,7);
+target = (0,3);
 type = Stem;
 },
 {
@@ -97887,7 +98137,7 @@ unicode = 785;
 },
 {
 glyphname = commaaccentcomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -97935,12 +98185,12 @@ target = (0,5);
 type = Stem;
 },
 {
-origin = (0,11);
+origin = (0,8);
 target = (0,2);
 type = Stem;
 },
 {
-origin = (0,8);
+origin = (0,11);
 target = (0,2);
 type = Stem;
 }
@@ -98057,7 +98307,7 @@ note = commaaccent;
 },
 {
 glyphname = cedillacomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -98273,7 +98523,7 @@ unicode = 807;
 },
 {
 glyphname = ogonekcomb;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -98451,7 +98701,7 @@ unicode = 808;
 },
 {
 glyphname = dieresiscomb.narrow;
-lastChange = "2026-03-20 13:49:31 +0000";
+lastChange = "2026-03-20 13:52:31 +0000";
 layers = (
 {
 anchors = (
@@ -98505,8 +98755,8 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = (0,5);
-target = (0,11);
+origin = (1,5);
+target = (1,11);
 type = Stem;
 },
 {
