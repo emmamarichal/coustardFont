@@ -1,10 +1,6 @@
 {
 .appVersion = "3516";
 .formatVersion = 3;
-DisplayStrings = (
-"STRAẞEH
-3"
-);
 axes = (
 {
 name = Weight;
@@ -152,11 +148,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1629;
+value = 2095;
 },
 {
 name = typoDescender;
-value = -507;
+value = -781;
 },
 {
 name = typoLineGap;
@@ -164,19 +160,23 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1680;
+value = 2097;
 },
 {
 name = winDescent;
-value = 534;
+value = 780;
 },
 {
 name = hheaAscender;
-value = 1680;
+value = 2095;
 },
 {
 name = hheaDescender;
-value = -534;
+value = -781;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = strikeoutPosition;
@@ -184,14 +184,6 @@ value = 640;
 },
 {
 name = strikeoutSize;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-},
-{
-name = underlineThickness;
 value = 0;
 }
 );
@@ -236,11 +228,11 @@ axesValues = (
 customParameters = (
 {
 name = typoAscender;
-value = 1629;
+value = 2095;
 },
 {
 name = typoDescender;
-value = -507;
+value = -781;
 },
 {
 name = typoLineGap;
@@ -248,19 +240,23 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1690;
+value = 2097;
 },
 {
 name = winDescent;
-value = 546;
+value = 780;
 },
 {
 name = hheaAscender;
-value = 1690;
+value = 2095;
 },
 {
 name = hheaDescender;
-value = -546;
+value = -781;
+},
+{
+name = hheaLineGap;
+value = 0;
 },
 {
 name = strikeoutPosition;
@@ -268,14 +264,6 @@ value = 674;
 },
 {
 name = strikeoutSize;
-value = 0;
-},
-{
-name = underlinePosition;
-value = 0;
-},
-{
-name = underlineThickness;
 value = 0;
 }
 );
@@ -7956,7 +7944,7 @@ type = Stem;
 },
 {
 horizontal = 1;
-place = (685.473,2.279);
+place = (685.473,173);
 target = (1,15);
 type = Stem;
 },
@@ -89571,7 +89559,7 @@ target = (0,7,4,50);
 type = Stem;
 },
 {
-place = (652.799,0);
+place = (652.799,114);
 target = (2,3);
 type = Stem;
 },
